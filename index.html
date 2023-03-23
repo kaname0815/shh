@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="USF-8">
+    <title>top|インカレ弁論部SHH</title>
+    	
+<link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/staatliches-2" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+    <link href="http://fonts.cdnfonts.com/css/cairo" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;500&family=Staatliches&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+<body id="top">
+    
+<!--    header始まり-->
+    <header>
+        <div class="logo">
+            <a href="top.html"><img src="images/logo.png" alt="SHH"></a>   <!--←ここで変えられます-->
+        </div>
+        <nav>
+            <ul class="global-nav">
+                <li><a href="top.html">TOP</a></li>
+                <a id="title"><li><a href="about.html">ABOUT</a>
+                <ul>
+                    <li><a href="about.html">SHHについて</a></li>
+                    <li><a href="shhabout.html">SHHの沿革</a></li>
+                    <li><a href="club.html">弁論部について</a></li>
+                    <li><a href="philosophy.html">SHHの理念</a></li>
+                </ul>
+                    </li></a>
+                <li><a href="about03.html">ACTIVITY</a>
+                <ul>
+                    <li><a href="about02.html">活動について</a></li>
+                    <li><a href="activity.html">弁論について</a></li>
+                    <li><a href="meeting.html">部会について</a></li>
+                    <li><a href="ivent.html">イベントについて</a></li>
+                </ul>
+                    </li>
+                <li><p class="header-link"><a href="links.html">LINK</a></p>
+                   <ul>
+                    <li><a href="about03.html">入部について</a></li>
+                       <li><a href="links.html">各種リンク集</a></li>
+                </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+<!--    header終わり-->
+    
+<!--    warpstart-->
+    <div class="bg_onetime_popup">
+    <div class="onetime_popup">
+        <div class="onetime_popup_title">
+            <span class="onetime_popup_title_close"></span>
+            <span>このコンテンツにはスマートフォン専用のページがあります。<br>表示しますか？</span>
+        </div>
+        <div class="onetime_popup_content">
+            <p>表示する</p>
+        </div>
+    </div>
+</div>
+    
+    <script>window.addEventListener('load', function() {
+    if(!localStorage.getItem('disp_popup')) {
+        localStorage.setItem('disp_popup', 'on');
+        const body = document.querySelector('body');
+        const bgPopup = document.querySelector('.bg_onetime_popup');
+        const popup = document.querySelector('.onetime_popup');
+        const popupTitleClose = document.querySelector('.onetime_popup_title_close');
+        body.classList.add('open_popup');
+
+        bgPopup.addEventListener('click', function() {
+            closePopup();
+        });
+        popup.addEventListener('click', function(e) {
+            e.stopPropagation();
+        });
+        popupTitleClose.addEventListener('click', function() {
+            closePopup();
+        });
+
+        function closePopup() {
+            body.classList.remove('open_popup');
+        }
+    }
+}, false);
+
+</script>
+    
+    <div id="warp">
+        <div class="content">
+            <div class="main-center">
+                <section class="toppage">
+<!--                    <img src="images/toppage.png" alt="SHHtop">-->
+                    <p>
+                    インカレ<br>弁論部<br><span>SHH</span>
+                    </p>
+                        <h5>Intercollegiate&nbsp;Speech&nbsp;Club&nbsp;"SHH"</h5>
+
+                     
+                </section>
+                
+                <section class="about clearfix">
+                    <div class="headline">
+                        <p><span>01</span><br>インカレ弁論部<br>SHHとは</p>
+                    </div>
+                    
+                    <div class="about-right"> 
+                        <p class="backtext">&emsp;&emsp;インカレ弁論部SHHは、様々な大学に存在する&emsp;</p>
+                        <p class="backtext">&emsp;&emsp;「弁論部」のインカレ版として
+                            設立された、</p>
+                        <p class="backtext">&emsp;&emsp;大学生の、大学生による、大学生のための場所です。</p>
+                            <p class="backtext">&emsp;&emsp;弁論をはじめ、様々な議論やアクティビティなど、</p>
+                        <p class="backtext">&emsp;&emsp;他のサークルとは
+                            一味も、ふた味も違う体験ができます。</p>
+                    </div>
+                    
+                    <div>
+                        <img src="images/top01.png" alt="SHH">
+                    </div>
+                    
+                    <div class="viewtop">
+                        <p>
+                            VIEW MORE
+                        </p>
+                        <ul class="view-list">
+                            <li>&emsp;<a href="shhabout.html"><img class="view-img" src="images/SHH%E3%81%AE%E6%B2%BF%E9%9D%A9_FILL.png">&emsp;<span>SHHの<br>沿革について</span> </a></li>
+                            <li>&emsp;<a href="club.html"><img class="view-img" src="images/%E5%BC%81%E8%AB%96%E9%83%A8_FILL.png">&emsp;<span>私たち<br>弁論部とは</span> </a></li>
+                            <li>&emsp;<a href="philosophy.html"><img class="view-img" src="images/rinen_FILL.png">&emsp;<span>SHHの<br>理念について</span> </a></li>
+                        </ul> 
+                    </div>
+                </section>
+                
+                 <section class="about2 clearfix">
+                    <div class="headline2">
+                        <p><span>02</span><br>「弁論部」<br>のメリット</p>
+                    </div>
+                    
+                    <div class="about-right2"> 
+                        <p class="backtext2">&emsp;弁論部は、歴史ある「学生弁論」をはじめ&emsp;</p>
+                        <p class="backtext2">「その活動は多岐にわたります。&emsp;
+                            </p>
+                        <p class="backtext2">&emsp;対話や議論、交流など個性的で多様な関心、考えの人種や&emsp;</p>
+                            <p class="backtext2">&emsp;他大学の学生と出会うことは、貴方の４年間の大学生活に&emsp;</p>
+                        <p class="backtext2">&emsp;より彩りや奥行きを
+                            与えてくれることでしょう。&emsp;</p>
+                    </div>
+                    
+                    <div>
+                        <img src="images/top02.png" alt="SHH">
+                    </div>
+                    
+                    <div class="viewtop2">
+                        <p>
+                            VIEW MORE
+                        </p>
+                        <ul class="view-list2">
+                            <li>&emsp;<a href="activity.html"><img class="view-img2" src="images/%E5%BC%81%E8%AB%96_FILL.png"><span>学生弁論とは</span></a> </li>
+                            <li>&emsp;<a href="meeting.html"><img class="view-img2" src="images/bukai_FILL.png">&emsp;<span>部会での活動 </span></a></li>
+                            <li>&emsp;<a href="ivent.html"><img class="view-img2" src="images/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_FILL.png"><span>イベントなど</span></a> </li>
+                        </ul> 
+                    </div>
+                </section>
+                
+                <section class="contents clearfix">
+                <section class="table "><a href="about.html">
+                    <div class="text">
+                    <h3>01</h3>
+                    <p>SHHに<br>ついて。</p>
+                        <h5>私たちの活動<br>沿革について</h5>
+                         </div>
+                    <img src="images/table01.jpg"></a>
+                   
+                </section> 
+                
+                <section class="table second"><a href="about02.html">
+                    <div class="text">
+                    <h3>02</h3>
+                    <p>活動に<br>ついて。</p>
+                    <h5>弁論とは<br>様々な活動</h5>
+                         </div>
+                    <img src="images/table02.jpg"></a>
+                   
+                </section> 
+                
+                <section class="table "><a href="about03.html">
+                    <div class="text">
+                    <h3>03</h3>
+                    <p>入部に<br>ついて。</p>
+                    <h5>入部について<br>部員について</h5>
+                         </div>
+                    <img src="images/table03.jpg"></a>
+                   
+                </section> 
+                
+                <section class="table "><a href="links.html">
+                    <div class="text">
+                    <h3>04</h3>
+                    <p>情報に<br>ついて。</p>
+                    <h5>SHHの情報<br>各種リンク集</h5>
+                         </div>
+                    <img src="images/table04.jpg"></a>
+                   
+                </section>
+                </section>
+            </div>    
+        </div>
+    </div>
+<!--    warpfinish-->
+    
+<!--    footerstart-->
+    <footer>
+<!--        <small>(c)2022 インカレ弁論部SHH</small>-->
+         <ul class="footer-nav clearfix">
+                <li><a href="top.html">TOP</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="about02.html">ACTIVITY</a></li>
+                <li><a href="links.html">LINK</a></li>
+            </ul>
+         <a href="#title"><p class="rotate">PAGE&nbsp;TOP</p></a>
+        <div class="footer-logo">
+        <img src="images/logo.png" alt="SHH">
+        </div>
+    </footer>
+<!--    footerfinish-->
+    
+    </body>
+</head>
+</html>
